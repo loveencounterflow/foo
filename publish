@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-# ./node_modules/coffee-script/bin/coffee -o lib -c src && \
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $DIR
 git add --all && \
 git commit -m "autocommit" && \
 git push -u origin gh-pages
