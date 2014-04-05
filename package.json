@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "starter project",
   "main": "lib/main.js",
-  "dependencies": {},
+  "dependencies": {
+    "coffee-script": "^1.7.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
